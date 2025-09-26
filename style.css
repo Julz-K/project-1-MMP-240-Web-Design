@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Sacramento&display=swap');
-/* Root typography settings */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 html{
 /*   set the following properties: 
   font-size - this will be the base font size for the site
@@ -8,17 +7,18 @@ html{
   color- primary text color for the site
   background-color - primary background color for the site */
 
-/* Base font */
-  font-family:"Josephin-Sans", sans-serif;
-  font size: 20px;
+
+  /* Base font */
+  font-family:"Lora", serif; 
+  font size: 24px;
   line-height: 1.6;
-  color: #303030;
+  color: #000;
 }
 
 body{
-  color: #303030;
-  background-color: #84CEE0;
-  width: 70ch;
+  color: #000;
+  background: #B435BE;
+  width:80ch;
   margin-left: auto;
   margin-right: auto;
 }
@@ -26,14 +26,14 @@ body{
 /* General heading styles */
 h1, h2, h3, h4, h5, h6{
   /* set font styles for all of your headings, for example font-weight, line-height, font-family */
-   font-family: "Josefin Slab", serif;
+   font-family: font-family: "Roboto", sans-serif;
    font-weight: 700;
 }
 
 /* Specific element text styles */
 h1{
   /*   this is the page title */
-   font-family: "Sacramento", cursive;
+   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 
@@ -52,9 +52,9 @@ p{
   a:hover{
     color: ffffff;
   }
-}
+
 a:visited{
-  color: rgb(1, 66, 1);
+  color: #942C9C;
 }
 /* -------------  Header styles ------------------------- */
 header {
@@ -86,13 +86,11 @@ nav a {
 
 nav a:hover {
   color: 
-#0066cc; /* hover color */
+color: ffffff;/* hover color */
 }
 nav a:visited {
-  color: 
-#0066cc; /* hover color */
- color: 
-#333;
+  color: ffffff;
+
 }
 
 /* ------------- END Header styles  */
